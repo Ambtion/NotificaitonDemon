@@ -5,6 +5,7 @@
 ## Build generated
 build/
 DerivedData/
+.DS_Store
 
 ## Various settings
 *.pbxuser
@@ -20,6 +21,15 @@ xcuserdata/
 ## Other
 *.moved-aside
 *.xcuserstate
+xcuserdata
+*.zip
+*.ipa
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
 
 ## Obj-C/Swift specific
 *.hmap
@@ -34,6 +44,7 @@ xcuserdata/
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 # Pods/
+Pods/
 
 # Carthage
 #
@@ -58,3 +69,7 @@ fastlane/screenshots
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+# https://github.com/fastlane/fastlane/blob/master/docs/Gitignore.md
+
+fastlane/report.xml
+fastlane/screenshots
